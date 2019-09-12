@@ -21,7 +21,9 @@ for ($i=1; $i <= $bintang; $i++) {
     for ($x=$bintang; $x >= $i; $x--) {
        echo "&nbsp;";
     } 
-    for ($n=1; $n <= $i; $n++) { 
+    for ($n=1; $n <= $i; $n++) { echo"<pre>";
+        echo "<b>INFO DATA SISWA </b> <br>";
+        echo "Nama                     :".$nama. "<br>";
         echo "* ";
     }
     echo "<br>";
